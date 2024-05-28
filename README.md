@@ -61,3 +61,9 @@ in browser command line: `/www/site.php` (to open the folder and the file)
     ?>
 
 ![variables](media/readme-images/variables.png)
+
+## Data Types
+
+![Data Types](media/readme-images/data-types.png)
+
+![Data Types Site](media/readme-images/data-types-site.png)

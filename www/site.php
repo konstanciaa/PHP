@@ -33,5 +33,17 @@
         echo "But didn't like being $characterAge <br>";
     ?>
 
+    <!-- data types -->
+    <?php
+        $phrase = "To be or not to be"; //strings
+        $age = 30; // integer (the whole number)
+        $price = 32.967; // float number (decimal)
+        $isMale = true; // boolean
+        echo "<br>";
+        echo $phrase;
+        echo "<br>";
+        echo 30;
+    ?>
+
 </body>
 </html>
