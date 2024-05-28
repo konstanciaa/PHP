@@ -43,6 +43,31 @@
         echo $phrase;
         echo "<br>";
         echo 30;
+        echo "<br>";
+    ?>
+
+    <!-- string functions -->
+    <?php
+        $phrase = "Free Code Camp";
+        echo strtolower($phrase);
+        echo "<br>";
+        echo strtoupper($phrase);
+        echo "<br>";
+        echo strlen($phrase); // how many characters in the string
+        echo "<br>";
+        echo $phrase[0]; // index indicates the character position in the string
+        echo "<br>";
+        echo $phrase[13];
+        echo "<br>";
+        $phrase[0] = "B"; // replace letter in a string
+        echo $phrase;
+        echo "<br>";
+        echo str_replace("Camp", "House", $phrase); // replace a word
+        echo "<br>";
+        echo substr($phrase, 5); // a part of a string; index indicates the beginning
+        echo "<br>";
+        echo substr($phrase, 5, 4); // 4 characters starting with index 5
+        echo "<br>";
     ?>
 
 </body>

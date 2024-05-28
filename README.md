@@ -64,6 +64,11 @@ in browser command line: `/www/site.php` (to open the folder and the file)
 
 ## Data Types
 
-![Data Types](media/readme-images/data-types.png)
+![Data Types](media/readme-images/data-types.png) | ![Data Types Site](media/readme-images/data-types-site.png)
+|----|----|
 
-![Data Types Site](media/readme-images/data-types-site.png)
+
+## String Functions
+
+![String Functions](media/readme-images/string-functions.png) | ![String Functions Site](media/readme-images/string-functions-site.png)
+|----|----|
