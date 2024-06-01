@@ -73,63 +73,75 @@
 
     <!-- working with numbers -->
     <?php
-        echo "<h2>Working with numbers</h2>";
-        echo "<code>echo 40;</code> Result: ";
-        echo 40;
+        echo 40; // 40
         echo "<br>";
-        echo "<code>echo -40;</code> Result: ";
-        echo -40;
+        echo -40; // -40
         echo "<br>";
-        echo "<code>echo -30.378;</code> Result: ";
-        echo -30.378;
+        echo -30.378; // -30.378
         echo "<br>";
-        echo "<code>echo 5 + 9;</code> Result: ";
-        echo 5 + 9;
+        echo 5 + 9; // 14
         echo "<br>";
-        echo "<code>echo 10 / 2;</code> Result: ";
-        echo 10 / 2;
+        echo 10 / 2; // 5
         echo "<br>";
-        echo "<code>echo 10 % 3;</code> Result: ";
-        echo 10 % 3; // modulo operator, remainder of devision
+        echo 10 % 3; // modulo operator, remainder of devision = 1
         echo "<br>";
-        echo "<code>echo 4 + 5 * 10;</code> Result: ";
-        echo 4 + 5 * 10;
+        echo 4 + 5 * 10; // 54
         echo "<br>";
-        echo "<code>echo (4 + 5) * 10;</code> Result: ";
-        echo (4 + 5) * 10;
+        echo (4 + 5) * 10; // 90
         echo "<br>";
-        echo "<code>$num = 10; echo $num;</code> Result: ";
         $num = 10;
-        echo $num;
+        echo $num; // 10
         echo "<br>";
         $num++;
-        echo $num;
+        echo $num; // 11
         echo "<br>";
         $num--;
-        echo $num;
+        echo $num; // 10
         echo "<br>";
         $num = $num + 25; // $num += 25;
-        echo $num;
+        echo $num; // 35
         echo "<br>";
         $num -= 25;
-        echo $num;
+        echo $num; // 10
         echo "<br>";
-        echo abs(-100); // absolute value of a number
+        echo abs(-100); // absolute value of a number = 100
         echo "<br>";
-        echo pow(2, 4); // 2 raised to 4 power
+        echo pow(2, 4); // 2 raised to 4 power = 16
         echo "<br>";
-        echo sqrt(144); // square root
+        echo sqrt(144); // square root = 12
         echo "<br>";
-        echo max(2, 10); // prints the bigger number
+        echo max(2, 10); // prints the bigger number = 10
         echo "<br>";
-        echo min(2, 10); // prints the smallest number
+        echo min(2, 10); // prints the smallest number = 2
         echo "<br>";
-        echo round(3.2); // rounds
+        echo round(3.2); // rounds = 3
         echo "<br>";
-        echo ceil(3.3); // rounds up no matter what
+        echo ceil(3.3); // rounds up no matter what = 4
         echo "<br>";
-        echo floor(3.9); // rounds down no matter what
+        echo floor(3.9); // rounds down no matter what = 3
         echo "<br>";
     ?>
+
+    <!-- Getting User Input -->
+    <form action="site.php" method="get">
+        Name: <input type="text" name="name">
+        <input type="submit">
+    </form>
+
+    <!-- prints the name from the input on the page -->
+    Your name is <?php echo $_GET["name"] ?> 
+
+
+    <!-- Basic Calculator -->
+    <form action="site.php" method="get">
+        <input type="number" name="num1">
+        <br>
+        <input type="number" name="num2">
+        <br>
+        <input type="submit">
+    </form>
+
+    Answer: <?php echo $_GET["num1"] + $_GET["num2"] ?>
+
 </body>
 </html>
