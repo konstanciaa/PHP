@@ -31,5 +31,23 @@
         $fruits = $_POST["fruits"];
         echo $fruits[0];
     ?>
+
+    <!-- Associative Arrays (objects)-->
+    <?php
+        // key names should be unique, values can be same
+        $grades = array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+"); // key-value pairs
+        echo $grades["Jim"]; // A+
+        $grades["Jim"] = "F"; // modify value
+        echo $grades["Jim"]; // F
+    ?>
+
+    <form action="site-two.php" method="post">
+        <input type="text" name="student">
+        <input type="submit">
+    </form>
+    <?php
+        $grades = array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+");
+        echo $grades[$_POST["student"]]; // you type the name - it shows grade
+    ?>
 </body>
 </html>

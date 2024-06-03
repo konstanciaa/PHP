@@ -72,3 +72,11 @@ in browser command line: `/www/site.php` (to open the folder and the file)
 
 ![String Functions](media/readme-images/string-functions.png) | ![String Functions Site](media/readme-images/string-functions-site.png)
 |----|----|
+
+
+## site.php
+
+## site-two.php
+- Arrays
+- Checkboxes
+- Associative Arrays
