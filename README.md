@@ -75,8 +75,11 @@ in browser command line: `/www/site.php` (to open the folder and the file)
 
 
 ## site.php
+- Write HTML
+- Variables
 
 ## site-two.php
 - Arrays
 - Checkboxes
 - Associative Arrays
+- Functions

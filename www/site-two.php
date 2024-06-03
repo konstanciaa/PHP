@@ -49,5 +49,31 @@
         $grades = array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+");
         echo $grades[$_POST["student"]]; // you type the name - it shows grade
     ?>
+
+    <!-- Functions -->
+    <?php
+        function sayHi(){
+            echo "Hello User";
+        }
+
+        sayHi();
+
+        // with a parameter
+        function sayHello($name){
+            echo "Hello $name";
+        }
+
+        sayHello("Anna"); // Hello Anna
+        sayHello("Pam"); // Hello Pam
+
+
+        // with two parameters
+        function sayHallo($name, $age){
+            echo "Hello $name, you are $age <br>";
+        }
+
+        sayHallo("Anna", 24); // Hello Anna, you are 24
+        sayHallo("Pam", 30); // Hello Pam, you are 30
+    ?>
 </body>
 </html>
