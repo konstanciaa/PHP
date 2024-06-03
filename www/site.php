@@ -160,5 +160,26 @@
         echo "$pluralNoun are blue <br>";
         echo "I love $celebrity <br>";
     ?>
+
+    <!-- POST vs. GET -->
+    <!-- GET is not secure, you can see and change  it in URL -->
+    <form action="site.php" method="get">
+        Password: <input type="password" name="password"> <br>
+        <input type="submit">
+    </form>
+    <br><br>
+    <?php 
+        echo $_GET["password"];
+    ?>
+
+    <!-- POST is more secure, isn't seen in URL -->
+    <form action="site.php" method="post">
+        Password: <input type="password" name="password"> <br>
+        <input type="submit">
+    </form>
+    <br><br>
+    <?php 
+        echo $_POST["password"];
+    ?>
 </body>
 </html>
