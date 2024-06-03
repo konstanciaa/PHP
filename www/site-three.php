@@ -78,5 +78,18 @@
             $index++;
         }while($index <= 5);
     ?>
+
+    <!-- For Loops -->
+    <?php
+        for($i = 1; $i <= 5; $i++){ // initialize variable, looping condition, increment
+            echo "$i <br>";
+        }
+
+        // loop through array
+        $numbers = array(4, 8, 16, 23, 32, 42);
+        for($i = 0; $i < count($numbers); $i++){ // $i = 0 - index of the array
+            echo "$numbers[$i] <br>";
+        }
+    ?>
 </body>
 </html>

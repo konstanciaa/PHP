@@ -91,3 +91,4 @@ in browser command line: `/www/site.php` (to open the folder and the file)
 - Better Calculator
 - Switch Statements
 - While Loops
+- For Loops
