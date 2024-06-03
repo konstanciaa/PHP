@@ -75,5 +75,21 @@
         sayHallo("Anna", 24); // Hello Anna, you are 24
         sayHallo("Pam", 30); // Hello Pam, you are 30
     ?>
+
+
+    <!-- Return Statements -->
+    <?php
+        function cube($num){
+            echo "Hello"; // prints out
+            return $num * $num * $num;
+            echo "Hello"; // never printed out, after return statement function stops
+        }
+
+        $cubeResult = cube(4); // storing result in a variable
+        echo $cubeResult; // 64
+
+        echo cube(2); // 8
+    ?>
+
 </body>
 </html>
