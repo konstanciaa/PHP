@@ -130,7 +130,35 @@
         } else {
             echo "You are not male and not tall";
         }
+    ?>
 
+
+    <!-- if statements comparisons -->
+    <?php
+        function getMax($num1, $num2){
+            if($num1 > $num2){
+                return $num1;
+            } else {
+                return $num2;
+            }
+        }
+
+        echo getMax(3, 90); // 90
+
+
+        function getMaxNum($num1, $num2, $num3){
+            if($num1 >= $num2 && $num1 >= $num3){ 
+                return $num1;
+            } elseif($num2 >= $num1 && $num2 >= $num3) {
+                return $num2;
+            } else {
+                return $num3;
+            }
+        }
+
+        echo getMaxNum(3, 96, 236); // 236
+
+        // comparison operators: == equal, != not equal
     ?>
 
 </body>
