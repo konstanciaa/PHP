@@ -91,5 +91,47 @@
         echo cube(2); // 8
     ?>
 
+
+    <!-- if statements -->
+    <?php
+        $isMale = true;
+        if ($isMale){
+            echo "You are male";
+        }
+
+        $isMale = false;
+        if ($isMale){
+            echo "You are male"; // prints nothing
+        }
+
+        $isMale = false;
+        if ($isMale){
+            echo "You are male";
+        } else {
+            echo "You are not male";
+        }
+
+        $isMale = true;
+        $isTall = true;
+        if ($isMale && $isTall){
+            echo "You are a tall male";
+        } else {
+            echo "You are not male";
+        }
+
+        $isMale = false;
+        $isTall = true;
+        if ($isMale && $isTall){
+            echo "You are a tall male";
+        } elseif ($isMale && !$isTall){
+            echo "You are a short male";
+        } elseif(!$isMale && $isTall){
+            echo "You are not male but are tall";
+        } else {
+            echo "You are not male and not tall";
+        }
+
+    ?>
+
 </body>
 </html>
