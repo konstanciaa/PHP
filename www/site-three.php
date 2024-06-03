@@ -63,5 +63,20 @@
         }
     ?>
 
+    <!-- While Loops -->
+    <?php
+        $index = 1;
+        while($index <= 5){
+            echo "$index <br>";
+            $index++;
+        }
+
+        // frist do, then check a condition
+        $index = 6;
+        do{
+            echo "$index <br>";
+            $index++;
+        }while($index <= 5);
+    ?>
 </body>
 </html>
