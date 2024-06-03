@@ -90,6 +90,12 @@
         for($i = 0; $i < count($numbers); $i++){ // $i = 0 - index of the array
             echo "$numbers[$i] <br>";
         }
+
+        /*
+          comment block
+          comments
+          comments
+        */
     ?>
 </body>
 </html>

@@ -77,6 +77,13 @@ in browser command line: `/www/site.php` (to open the folder and the file)
 ## site.php
 - Write HTML
 - Variables
+- Data Types
+- String Functions
+- Numbers
+- User Input
+- Basic Calculator
+- Mad Libs Game
+- POST vs. GET
 
 ## site-two.php
 - Arrays
@@ -92,3 +99,4 @@ in browser command line: `/www/site.php` (to open the folder and the file)
 - Switch Statements
 - While Loops
 - For Loops
+- Comments
