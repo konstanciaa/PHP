@@ -116,3 +116,6 @@ A file for storing variables, functions to include in other pages.
 
 ## site-six.php
 - Classes, objects, constructors
+
+## site-seven.php
+- Object Functions
