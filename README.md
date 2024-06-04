@@ -123,3 +123,6 @@ A file for storing variables, functions to include in other pages.
 ## site-eight.php
 - Getters & Setters
 - Visibilty Modifier
+
+## site-nine.php
+- Inheritance from another class
