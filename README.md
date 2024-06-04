@@ -119,3 +119,7 @@ A file for storing variables, functions to include in other pages.
 
 ## site-seven.php
 - Object Functions
+
+## site-eight.php
+- Getters & Setters
+- Visibilty Modifier
