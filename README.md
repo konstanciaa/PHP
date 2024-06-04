@@ -84,6 +84,7 @@ in browser command line: `/www/site.php` (to open the folder and the file)
 - Basic Calculator
 - Mad Libs Game
 - POST vs. GET
+- Include HTML
 
 ## site-two.php
 - Arrays
@@ -93,6 +94,7 @@ in browser command line: `/www/site.php` (to open the folder and the file)
 - Return Statements
 - If Statements
 - If Statements (Comparisons)
+- Include HTML
 
 ## site-three.php
 - Better Calculator
@@ -100,3 +102,10 @@ in browser command line: `/www/site.php` (to open the folder and the file)
 - While Loops
 - For Loops
 - Comments
+- Include HTML
+
+## site-four.php
+- Include PHP
+
+## useful-tools.php
+A file for storing variables, functions to include in other pages.
