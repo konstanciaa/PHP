@@ -17,8 +17,10 @@
             var $pages;
 
             // constructor
-            function __construct($name){
-                echo "New Book $name Created <br>";
+            function __construct($aTitle, $aAuthor, $aPages){
+                $this->title = $aTitle;
+                $this->auhtor = $aAuthor;
+                $this->pages = $aPages;
             }
         }
 
@@ -27,15 +29,9 @@
         and store it in a variable
         */
         // object, an instance of a class, actual book
-        $book1 = new Book("Pride and Prejudice"); // calls a constructor function
-        $book1->title = "Pride and Prejudice";
-        $book1->auhtor = "Jane Austen";
-        $book1->pages = 400;
-
-        $book2 = new Book("Emma");
-        $book2->title = "Emma";
-        $book2->auhtor = "Jane Austen";
-        $book2->pages = 500;
+        $book1 = new Book("Pride and Prejudice", "Jane Austen", 400); // calls a constructor function
+        $book1->title = "Persuasion"; // modify data
+        $book2 = new Book("Emma", "Jane Austen", 500);
 
         echo $book1->title;
         echo $book2->title;
