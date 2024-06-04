@@ -6,6 +6,8 @@
     <title>PHP</title>
 </head>
 <body>
+    <?php include "header.html" ?>
+
     <!-- Arrays -->
     <?php 
         $friends = array("Kevin", "Karen", "Oscar", "Jim");
@@ -160,6 +162,8 @@
 
         // comparison operators: == equal, != not equal
     ?>
+
+    <?php include "footer.html" ?>
 
 </body>
 </html>

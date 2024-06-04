@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/css/site.css">
 </head>
 <body>
-    
+    <?php include "header.html" ?>
+
     <?php
         // writing HTML
         echo "<h1>Anna's Site</h1>";
@@ -181,5 +182,8 @@
     <?php 
         echo $_POST["password"];
     ?>
+
+    <?php include "footer.html" ?>
+
 </body>
 </html>

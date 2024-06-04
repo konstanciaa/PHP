@@ -6,6 +6,8 @@
     <title>PHP</title>
 </head>
 <body>
+    <?php include "header.html" ?>
+
     <!-- Better Calculator -->
     <!-- type="number" step="0.001" - for float numbers -->
     <form action="site-three.php" method="post">
@@ -97,5 +99,8 @@
           comments
         */
     ?>
+
+    <?php include "footer.html" ?>
+
 </body>
 </html>
